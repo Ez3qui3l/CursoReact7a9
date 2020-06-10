@@ -8,7 +8,7 @@ class Regards extends React.Component{
 render(){
     return (
         <div>
-            <h1>Hola: {this.props.objectName.name}</h1>
+            <h1>Hola: {this.props.objecName.name}</h1>
         </div>
     )
 }
