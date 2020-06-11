@@ -25,7 +25,7 @@ class App  extends React.Component{
         return(
             <div>
                 <Regards objecName={this.state}/>
-                <button onClick={()=>{this.ChangeState({name: 'Fernando', lastname:'Mendoza'})}}>Ezequiel</button>
+                <button onClick={()=>{this.ChangeState({name: 'Fernando', lastname:'Palomo'})}}>Ezequiel</button>
                 <button onClick={()=>{this.ChangeState({name: 'Manuel', lastname:'Trujillo'})}}>Manuel</button>
                 <button onClick={()=>{this.ChangeState({name: 'Luis', lastname:'Aragon'})}}>Luis</button>  
 
