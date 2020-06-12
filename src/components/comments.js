@@ -1,5 +1,5 @@
 import React from 'react'
-import Faker from 'faker'
+import { date } from 'faker'
 class Comments extends React.Component{
     constructor(props){
         super()
@@ -9,6 +9,16 @@ class Comments extends React.Component{
             date: props.date,
             comment: props.comment,
         }
+    }
+
+    componentWillMount(){
+        console.log('Antes del renderizado')
+    }
+    componentDidMount(){
+        console.log('Despues del renderizado')
+    }
+    componentWillUnmount(){
+        console.log('Componente Borrado')
     }
     render(){
         return(

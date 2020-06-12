@@ -1,13 +1,13 @@
 import React from 'react'
 
 class Button extends React.Component{
-    constructor(){
+    constructor(props){
         super()
     }
     render(){
         return (
-            <button class="ui primary button">
-            Comentar
+            <button onClick={()=> this.props.onclick()} className="ui primary button">
+            {this.props.text}
           </button>
         )
     }
